@@ -1,0 +1,27 @@
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: 10px ;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .fade {
+    animation: fade 6s infinite; /* 3 segundos de animação */
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: .4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

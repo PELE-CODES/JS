@@ -1,0 +1,81 @@
+main {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 1440px;
+    
+    
+}
+.main_info  {
+    width: 100%;
+    max-width: 500px;
+
+}
+
+.main_info p {
+    font-size: 18px;
+    margin: 10px  15px;
+    
+}
+
+.main_info div {
+    display: flex;
+    column-gap: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    
+}
+.main_info div a, .main_info div button {
+    width: 400px;
+    padding: 10px 0;
+    border-radius: 10px;
+    
+    
+    
+
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    transform: skew(-10deg);
+ 
+    
+}
+
+.main_info div a {
+    background: transparent;
+    border: 3px solid var(--blue);
+    animation: borderColorChange 2s infinite alternate; /* Use uma animação diferente para a cor da borda */
+}
+
+.main_info div button {
+    background: transparent;
+    border: 3px solid var(--blue);
+    animation: borderColorChange 2s infinite alternate; /* Use uma animação diferente para a cor da borda */
+}
+
+@keyframes borderColorChange {
+    from {
+      border-color: #08b9ff
+    }
+    to {
+      border-color: #ff0e46
+    }
+    to {
+        border-color:#84004f ;
+    }
+    to {
+        border-color:#d8e2ed ;
+    }
+}
+
+
+  
+.main_info img {
+    width: 200px;
+}
